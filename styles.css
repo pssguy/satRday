@@ -7,6 +7,10 @@
   line-height: 1.1em;
 }
 
+
+.title-slide .remark-slide-number {
+  display: none;
+}
 /*
 .reveal section p {
   color: blue;

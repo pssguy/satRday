@@ -19,10 +19,9 @@ options(htmltools.dir.version = FALSE)
 
 
 
-# Reasons for this Approach
+# What's the Hurry?
 
-
-
+--
 
 - Quick Exploratory Take
 
@@ -38,7 +37,7 @@ they have done copy and paste before
 
 --
 
-- or maybe you have a boss who...
+- ...or maybe you have this kinf of boss...
 
 
 
@@ -159,4 +158,27 @@ df_tidy  %>%
 class: center, middle
 
  ![](didNothingToday200.jpg)
+
+---
+.pull-left[
+
+Me:
+  
+Twitter: @pssguy
+
+Blog: http://mytinyshinys.com 
+
+Slides https://github.com/pssguy/satRday]
+
+.pull-right[
+
+Resources:
+
+datapasta: https://github.com/MilesMcBain/datapasta
+
+plotly: https://cpsievert.github.io/plotly_book/
+
+tidyverse: https://www.tidyverse.org/
+
+ ]
 
