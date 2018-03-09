@@ -1,0 +1,58 @@
+---
+title: "PastaDemo"
+output: html_document
+---
+
+```{r copy_paste, message=FALSE,warning=FALSE}
+
+library(tidyverse)
+library(plotly)
+
+title <- 
+df <- 
+
+
+
+
+# backup if required
+#df <- read_csv("saData.csv")
+#title<- "Annual per capita personal income by race group<br> relative to white levels"
+
+```
+
+---
+
+```{r dataframe}
+df
+ 
+```
+
+Not in tidy format
+
+---
+
+
+```{r tidy}
+
+
+df_tidy<- df %>% 
+  select(-White) %>% 
+  gather(key="race",value="index",-Year)
+
+head(df_tidy)
+
+```
+
+Looks good
+
+Let's plot the results
+
+---
+```{r}
+
+df_tidy  %>% 
+  plot_ly(x=~Year,y=~index,color=~race) %>% 
+  add_lines() %>% 
+  layout(title=title)
+
+```

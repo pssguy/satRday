@@ -1,0 +1,24 @@
+.reveal section p {
+  color: blue;
+}
+
+#nextsteps {
+   color: #ff0000;
+}
+
+.emphasized {
+   font-size: 1.2em;
+}
+.title {
+color: green;
+}
+.post {
+color: red;
+}
+.author {
+color: white;
+}
+.date {
+color: white;
+}
+
