@@ -1,3 +1,13 @@
+.inverse h1{
+  color: #FFB612;
+}
+
+.inverse h2, .inverse h3 {
+  color: #007A4D;
+  line-height: 1.1em;
+}
+
+/*
 .reveal section p {
   color: blue;
 }
@@ -22,3 +32,4 @@ color: white;
 color: white;
 }
 
+*/

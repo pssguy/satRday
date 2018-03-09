@@ -5,6 +5,7 @@ author: "Andrew Clark"
 date: "2018/03/17"
 output:
   xaringan::moon_reader:
+    css: ["default", "styles.css"]
     lib_dir: libs
     nature:
       highlightStyle: github
@@ -63,11 +64,17 @@ Pronunciation of datapasta
 Miles McBain based in Brisbane
 
 ---
+class: center, middle
+![](demo.jpg)
 
+--
 
+## Time for a Demo
 
 ???
-add a 'demo page' also have introductory slide in gold and green
+Now it is time for a demo
+Fingers crossed
+
 
 ---
 class: center, middle
@@ -77,9 +84,9 @@ In [Economy of South Africa wiki page](https://en.wikipedia.org/wiki/Economy_of_
 ![](wikiPageTable.PNG)
 
 ???
-Great minds think alike - kinda spooky
-Replaced in last week or two by chart
-Bit different South Africa main page
+When in South Africa
+No desire to be political - just illustration no delving into further
+Actually a chart on main South Africa page somewhat similar
 
 ---
 
