@@ -37,7 +37,7 @@ they have done copy and paste before
 
 --
 
-- ...or maybe you have this kinf of boss...
+- ...or maybe you have this kind of boss...
 
 
 
@@ -66,7 +66,6 @@ Miles McBain based in Brisbane
 class: center, middle
 ![](demo.jpg)
 
---
 
 ## Time for a Demo
 
@@ -88,7 +87,14 @@ No desire to be political - just illustration no delving into further
 Actually a chart on main South Africa page somewhat similar
 
 ---
+class: center, middle
+- Copy the table contents from the web
 
+- Use the 'Paste as data.frame' option from Addins
+
+![](addins.png)
+
+---
 ```{r copy_paste, message=FALSE,warning=FALSE}
 
 library(tidyverse)
@@ -111,12 +117,14 @@ df <- data.frame(
 
 
 
-# backup if required
-#df <- read_csv("saData.csv")
-#title<- "Annual per capita personal income by race group<br> relative to white levels"
+
 
 ```
 
+???
+ backup if required
+df <- read_csv("saData.csv")
+title<- "Annual per capita personal income by race group<br> relative to white levels"
 ---
 
 ```{r dataframe}
@@ -145,7 +153,7 @@ Looks good
 Let's plot the results
 
 ---
-```{r}
+```{r, eval = FALSE}
 
 df_tidy  %>% 
   plot_ly(x=~Year,y=~index,color=~race) %>% 
@@ -153,6 +161,9 @@ df_tidy  %>%
   layout(title=title)
 
 ```
+--
+
+ ![](chart.png)
 
 ---
 class: center, middle
